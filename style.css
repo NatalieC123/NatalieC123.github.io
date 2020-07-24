@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap');
+
+
+
+#banner{ 
+	background-color: pink; 
+
+}
+
+#banner-row{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.form-head{
+	font-family:'Merriweather', serif;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: underline;
+}
+
+
+.row{
+	margin-top: 0.5rem; 
+	margin-bottom:0.5rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+
+}
+
+
+form{
+	padding: 0.5rem;
+	position: absolute;
+	top: 20%;
+	z-index: 10;
+	background-color: white;
+
+}
+
+
+#form-row{
+	padding-right: 1rem;
+	padding-left: 1rem;
+
+}
+
+
+#footer-row{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 1rem;
+}
+
+
+#cards-row{
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+.card-title{
+	text-align: center;
+}
+
+
+
+.card{
+	margin-bottom: 1rem;
+}
+
+.pic{
+	width: 100%;
+	height:	auto;
+}
+
+#btn-container{
+	flex-direction: column;
+	position: absolute;
+	top: 17%;
+	z-index: 10;
+}
+
+.promo-btn{
+	margin-top: 0.25rem;
+}
+
+#btn-col{
+	position: static;
+}
+
+
+@media(max-width: 576px){
+	#btn-container{
+		position: static;
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	.art-head{
+		text-align: center;
+	}
+	form{
+		position: static;
+	}
+}
+
+
+.heading{
+	display: inline-block;
+	padding: 0.5rem;
+}
+
+.smaller-height-pic{
+	height: 300px;
+	width: auto;
+}
+
+.centralised-pic{
+	text-align: center;
+}
+
+
+#form-col{
+	position: static;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
